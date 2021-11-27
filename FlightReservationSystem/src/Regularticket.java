@@ -14,7 +14,7 @@ public class Regularticket extends Ticket {
         this.food = food;
         this.water = water;
         this.snacks = snacks;
-        System.out.println("Special Services Availed are :"+this.food+", "+this.water+", "+this.snacks);
+        System.out.println("\nSpecial Services Availed are :"+this.food+", "+this.water+", "+this.snacks);
     }
 
     void updateSpecialServices(String updateFood, String updatewater, String updateSnacks){

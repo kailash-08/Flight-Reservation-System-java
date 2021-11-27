@@ -25,7 +25,7 @@ public class Touristticket extends Ticket {
     Scanner sc = new Scanner(System.in);
 
     void selectLocation(){
-        System.out.println("Enter tourist locations to be selected :");
+        System.out.println("\n--Enter 5 tourist locations to be selected--\n");
         for(int i=0; i<=4; i++) {
             touristLocation[i] = sc.next();
          }
