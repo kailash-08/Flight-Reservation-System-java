@@ -64,7 +64,7 @@ public class Main {
             }else if(accept == 2){
                 obj.updateTicketStatus(false);
             }
-            obj.showPrn();
+            obj.showPnr();
             
         }
 
@@ -91,7 +91,7 @@ public class Main {
             }else if(accept == 2){
                 obj1.updateTicketStatus(false);
             }
-            obj1.showPrn();
+            obj1.showPnr();
             
         }
 

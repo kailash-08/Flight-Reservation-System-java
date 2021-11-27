@@ -1,5 +1,5 @@
 public abstract class Ticket {
-    private int prn;
+    private int pnr;
     private String departureLocation;
     private String destinationLocation;
     private String dateAndTimeOfDeparture;
@@ -8,8 +8,8 @@ public abstract class Ticket {
     private boolean ticketSatus;
     public Flight flight;
 
-    public Ticket(int prn, String departureLocation, String destinationLocation, String dateAndTimeOfDeparture, String dateAndTimeOfArrival, double priceOfTicket, boolean ticketSatus){
-        this.setPrn(prn);
+    public Ticket(int pnr, String departureLocation, String destinationLocation, String dateAndTimeOfDeparture, String dateAndTimeOfArrival, double priceOfTicket, boolean ticketSatus){
+        this.setPnr(pnr);
         this.setDepartureLocation(departureLocation);
         this.setDestinationLocation(destinationLocation);
         this.setDateAndTimeOfDeparture(dateAndTimeOfDeparture);
@@ -59,11 +59,11 @@ public abstract class Ticket {
     public void setDepartureLocation(String departureLocation) {
         this.departureLocation = departureLocation;
     }
-    public int getPrn() {
-        return prn;
+    public int getPnr() {
+        return pnr;
     }
-    public void setPrn(int prn) {
-        this.prn = prn;
+    public void setPnr(int pnr) {
+        this.pnr = pnr;
     }
     // Below method to book and cancel tickets
     void updateTicketStatus(boolean ticketSatus){
